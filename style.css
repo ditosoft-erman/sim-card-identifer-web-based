@@ -1,82 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .name-title-box {
-    background: linear-gradient(to right, #ff704d, #ffff00);
-    background-clip: text;
+  background: linear-gradient(to right, #d98b78, #999948);
+  background-clip: text;
 }
+
+
+
 .name-title {
-    display: flex;
-    justify-content: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
-    font-size: 80px;
-    padding: 7rem;
-    color: transparent;
+  display: flex;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
+  padding: 7rem;
+  color: transparent;
+  letter-spacing: 10px;
 
 }
+
 .container-searchbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-#search-input{
-    width: 18rem;
-    height: 3rem;
-    background: transparent;
-    font-size: 16px;
-    outline: none;
+
+#search-input {
+  width: 18rem;
+  height: 3rem;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
 }
 
 #styled-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  .styled-button:hover {
-    background-color: #45a049;
-  }
-  input:focus {
-    border-color: #66afe9;
-  }
-  #result {
-    font-size: 30px;
-  }
-@media only screen and (max-width: 600px) {
-    .name-title{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-        font-weight: bold;  
-        font-size: 60px;
-    }
-    .main {
-        display: block;
-
-    }
-
-    #styled-button {
-        margin: 1rem 9.5rem;
-
-    }
-
-    #result {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 8rem;
-    }
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
+.styled-button:hover {
+  background-color: #45a049;
+}
+
+input:focus {
+  border-color: #66afe9;
+}
+
+#result {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .name-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+  }
+
+  .main {
+    display: block;
+
+  }
+
+  #styled-button {
+    margin: 1rem 9.5rem;
+
+  }
+
+  #result {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+  }
+}
